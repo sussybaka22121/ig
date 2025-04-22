@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/DF1UsayvWNS", "dest": "/" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/" }
+  ]
+} 
