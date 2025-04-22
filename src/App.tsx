@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import InstagramLogo from "../assets/Instagram-Logo.png";
+import InstagramLogo from "../assets/instagramlogo.png";
+import InstagramHorizontalLogo from "../assets/Instagram-Logo.png"
 import maxImage from "../assets/max.png";
 import metaAILogo from "../assets/image.png";
 
@@ -218,7 +219,7 @@ function App() {
       <header className="w-full border-b border-neutral-800 bg-black flex justify-between items-center py-2 px-4 lg:px-40">
         <div>
           <img 
-            src={InstagramLogo} 
+            src={InstagramHorizontalLogo} 
             alt="Instagram" 
             className="h-12 cursor-pointer" 
             onClick={() => window.location.href = "https://www.instagram.com"}
